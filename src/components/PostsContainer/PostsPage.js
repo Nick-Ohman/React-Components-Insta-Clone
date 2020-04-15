@@ -6,8 +6,8 @@ import "./Posts.css";
 import dummyData from "../../dummy-data";
 
 
-const PostsPage = ({posts}) => {
-  
+const PostsPage = () => {
+
   return (
     <div className="posts-container-wrapper">
       {/* map through data here to return a Post and pass data as props to Post */}
